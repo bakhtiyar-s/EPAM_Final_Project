@@ -1,10 +1,9 @@
 
+i
+java:S20958"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ĞğÀ£ñ.
+i
+java:S2095`"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ĞğÀ£ñ.
 J
-java:S1128"(Remove this unused import 'entity.User'.(Ï£Šûıÿÿÿÿ8¢¼êÍì.
+java:S1128"(Remove this unused import 'entity.User'.(Ï£Šûıÿÿÿÿ8ĞğÀ£ñ.
 V
-java:S1128"4Remove this unused import 'entity.MenuItemCategory'.(á¹Ùµüÿÿÿÿ8¢¼êÍì.
-i
-java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¢¼êÍì.
-i
-java:S20953"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¢¼êÍì.
-X	java:S125"<This block of commented-out lines of code should be removed.(•ü£8Şô‚Õï.
+java:S1128"4Remove this unused import 'entity.MenuItemCategory'.(á¹Ùµüÿÿÿÿ8ĞğÀ£ñ.

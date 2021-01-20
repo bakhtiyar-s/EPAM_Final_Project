@@ -1,0 +1,81 @@
+-- -- DROP DATABASE FoodStore;
+-- --
+-- CREATE DATABASE FoodStore;
+
+CREATE SCHEMA IF NOT EXISTS FoodStore;
+
+CREATE TABLE IF NOT EXISTS FoodStore.UserCategory
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    categoryName VARCHAR(20) NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS FoodStore.User
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    categoryId INT NOT NULL DEFAULT 2,
+    firstName VARCHAR(50) NOT NULL,
+    lastName VARCHAR(50) NOT NULL,
+    phoneNum TEXT NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    FOREIGN KEY (categoryId) REFERENCES FoodStore.UserCategory(id)
+);
+
+CREATE TABLE IF NOT EXISTS FoodStore.Address
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    addressLine1 VARCHAR(50) NOT NULL,
+    addressLine2 VARCHAR(20),
+    comment VARCHAR(100),
+    userId INT,
+    FOREIGN KEY (userId) REFERENCES FoodStore.User(id)
+);
+
+CREATE TABLE IF NOT EXISTS FoodStore.MenuCategory
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    categoryName VARCHAR(20) NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS FoodStore.MenuItem
+(
+    id SERIAL NOT NULL PRIMARY KEY ,
+    itemName VARCHAR(100) NOT NULL,
+    price DECIMAL NOT NULL,
+    categoryId INT NOT NULL,
+    description VARCHAR(300),
+    stopLoss BOOLEAN NOT NULL,
+    imgHref VARCHAR(200),
+    FOREIGN KEY (categoryId) REFERENCES FoodStore.MenuCategory(id)
+);
+
+CREATE TYPE PAYMENT_TYPE AS ENUM ('CARD', 'CASH', 'BITCOIN');
+CREATE TYPE ORDER_STATUS AS ENUM ('PENDING', 'COMPLETED', 'CANCELLED');
+
+CREATE TABLE IF NOT EXISTS FoodStore.Order
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    customerId INT NOT NULL,
+    addressId INT NOT NULL,
+    orderTime TIMESTAMP NOT NULL,
+    deliverByTime TIME NOT NULL,
+    paymentType PAYMENT_TYPE NOT NULL,
+    orderStatus ORDER_STATUS NOT NULL,
+    totalPrice DECIMAL NOT NULL DEFAULT 0,
+    comment VARCHAR(256) NOT NULL,
+    FOREIGN KEY (customerId) REFERENCES FoodStore.User (id),
+    FOREIGN KEY (addressId) REFERENCES FoodStore.Address(id)
+);
+
+CREATE TABLE IF NOT EXISTS FoodStore.OrderDetail
+(
+    id Serial NOT NULL PRIMARY KEY,
+    orderId INT NOT NULL,
+    menuItemId INT NOT NULL,
+    quantity INT NOT NULL,
+    extendedPrice INT NOT NULL,
+    FOREIGN KEY (orderId) REFERENCES FoodStore.Order(id),
+    FOREIGN KEY (menuItemId) REFERENCES FoodStore.MenuItem(id)
+);
+

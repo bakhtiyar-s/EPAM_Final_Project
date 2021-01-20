@@ -1,7 +1,5 @@
 
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(†–»Óøÿÿÿÿ8¦”«Äê.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ¥„²øÿÿÿÿ8¾‰ÎÀê.
-\
-java:S2441$":Make "User" serializable or don't store it in the session.(ƒÖ‹¬şÿÿÿÿ8‡à·Íì.
 o
-java:S2441#"MMake "List" and its parameters serializable or don't store it in the session.(†Ç´òüÿÿÿÿ8˜ØÏıï.
+java:S24417"MMake "List" and its parameters serializable or don't store it in the session.(Áÿ­‡ùÿÿÿÿ8ëÚÎ¥ñ.
+\
+java:S24418":Make "User" serializable or don't store it in the session.(¢ƒö²úÿÿÿÿ8ëÚÎ¥ñ.

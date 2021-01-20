@@ -55,12 +55,8 @@ V
 &src/main/java/servlet/CafeServlet.java,7\1\71ff15ae14b76c849e0d7b54efc7c8501820aabf
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-L
-src/main/java/TestClass.java,a\2\a2718b57de1a9cff61f6ee504184d5b7f7da6ce9
 X
 (src/main/java/filter/EncodingFilter.java,5\9\59cd7972db3f22819b39e6d3936b4a715b45b24a
-<
-logs/app.log,1\9\19551365d5d85d08cf06f31af46de9860d5f5240
 ]
 -src/main/java/service/guest/LoginService.java,d\6\d6aa9203c30518447d6cc12d534ec78625fa15cb
 G
@@ -117,3 +113,15 @@ Q
 !src/main/java/entity/Address.java,d\f\df964cc7d03ecbbe28ffa2b692464b517b9d93fd
 @
 web/jsp/menu.jsp,2\9\29a0b9746872594cf229fdbe45ea9180b08de427
+P
+ web/jsp/administrator/orders.jsp,7\9\799d0a48ffef684d56b617ec593671a3d61c9002
+X
+(web/jsp/administrator/edit_menu_item.jsp,6\5\653db0a02b60ed8190114978f6207c774f1175c8
+t
+Dsrc/main/java/service/administrator/ShowEditMenuItemPageService.java,9\d\9da30c85fd4d5195429d5d38553572d45cb7fd9b
+m
+=src/main/java/service/administrator/ShowAllOrdersService.java,8\a\8a482998bfb44c6f4d7dd680ad9c2b12844b1783
+l
+<src/main/java/service/administrator/EditMenuItemService.java,f\1\f10f8f244c6cbe653ee2ef426d95de9bc44083b8
+m
+=src/main/java/service/administrator/CompleteOrderService.java,9\9\996e461f7f47fce082119a8a3046c1472b012dc3

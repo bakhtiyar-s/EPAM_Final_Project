@@ -1,5 +1,3 @@
 
-Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Ÿ¥”òøÿÿÿÿ8çª—‡ï.
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(ê×¼©8çª—‡ï.
 i
-java:S20952"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµþÿÿÿÿ8çª—‡ï.
+java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµþÿÿÿÿ8òïÀ£ñ.

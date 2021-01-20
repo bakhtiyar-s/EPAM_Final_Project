@@ -1,7 +1,7 @@
 
-NWeb:BoldAndItalicTagsCheckQ"!Replace this <b> tag by <strong>.(ƒ¬à—8ÉÈùüï.
-cWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
+NWeb:BoldAndItalicTagsCheckW"!Replace this <b> tag by <strong>.(µ‡Ç¿8ÉÈùüï.
 Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
-NWeb:ImgWithoutAltCheck="%Add an "alt" attribute to this image.(ñÌ›8ÍÁõıï.
-SWeb:BoldAndItalicTagsCheckK"!Replace this <b> tag by <strong>.(ŒÕ—ÿÿÿÿÿ8ÉÈùüï.
-NWeb:BoldAndItalicTagsCheckN"!Replace this <b> tag by <strong>.(ü»Ÿ±8ÉÈùüï.
+SWeb:BoldAndItalicTagsCheckZ"!Replace this <b> tag by <strong>.(’°•¨ûÿÿÿÿ8ÉÈùüï.
+NWeb:ImgWithoutAltCheck@"%Add an "alt" attribute to this image.(ñÌ›8ÍÁõıï.
+SWeb:BoldAndItalicTagsCheckT"!Replace this <b> tag by <strong>.(ÎÍ¬ªüÿÿÿÿ8ÉÈùüï.
+cWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ

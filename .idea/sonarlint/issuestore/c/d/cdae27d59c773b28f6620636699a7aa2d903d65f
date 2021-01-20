@@ -1,9 +1,0 @@
-
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(½‡›Ñ8î…ø§ï.
-I
-java:S1128",Remove this unused import 'entity.MenuItem'.(þ¤å€8î…ø§ï.
-Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Ÿ¥”òøÿÿÿÿ8öäÕ‚ð.
-J
-java:S1128"(Remove this unused import 'entity.User'.(Ï£Šûýÿÿÿÿ8î…ø§ï.
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.( Þ¨Ÿùÿÿÿÿ8úø›‚ð.
-Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ÒÚÄêùÿÿÿÿ8‰òš‚ð.
