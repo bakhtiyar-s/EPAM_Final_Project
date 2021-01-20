@@ -1,0 +1,18 @@
+
+c
+java:S2142N"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(‚¦ÿÛ8„¾Şèê.
+T	java:S106-"9Replace this use of System.out or System.err by a logger.(²Ú8„¾Şèê.
+a
+java:S2147\"DCombine this catch with the one at line 90, which has the same body.(É®£8„¾Şèê.
+T	java:S106="9Replace this use of System.out or System.err by a logger.(¦‹‘18„¾Şèê.
+c
+java:S2142Z"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(µëôâşÿÿÿÿ8„¾Şèê.
+c
+java:S21428"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
+a
+java:S21478"DCombine this catch with the one at line 54, which has the same body.(ä ¹€8„¾Şèê.
+c
+java:S2142D"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(æèÎ—úÿÿÿÿ8„¾Şèê.

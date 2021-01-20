@@ -1,0 +1,6 @@
+
+r	java:S116"WRename this field "ORDER_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ч•гZ8ЈЉІШп.
+=
+java:S1170"!Make this final field static too.(Ч•гZ8ЈЉІШп.
+]
+java:S2441";Make "Order" serializable or don't store it in the session.(ътОПьяяяя8±•бШп.

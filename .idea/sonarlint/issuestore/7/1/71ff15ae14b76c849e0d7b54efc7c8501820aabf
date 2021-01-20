@@ -1,0 +1,8 @@
+
+X
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8ĞÅñ³í.
+
+java:S1989)"_Handle the following exceptions that could be thrown by "doGet": IOException, ServletException.(—ôÖ¢øÿÿÿÿ8È™…†ê.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ğøö…8¹Ş©ƒï.
+ƒ
+java:S1989!"aHandle the following exceptions that could be thrown by "execute": IOException, ServletException.(„ä·‚ûÿÿÿÿ8ãÄê.

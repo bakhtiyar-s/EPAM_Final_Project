@@ -1,0 +1,7 @@
+
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(—αυ8ι®§κκ.
+\
+java:S2441'":Make "User" serializable or don't store it in the session.(ƒΦ‹¬ώÿÿÿÿ8Τν.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(κΧΌ©8ι®§κκ.
+]	java:S125,"<This block of commented-out lines of code should be removed.(Ώψÿÿÿÿ8ι®§κκ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ήμύωÿÿÿÿ8ι®§κκ.

@@ -1,0 +1,11 @@
+
+]
+java:S24415";Make "Order" serializable or don't store it in the session.(ôòŞˆùÿÿÿÿ8òÙ—®ï.
+X	java:S125"<This block of commented-out lines of code should be removed.(µì¹Æ8ïè‡³ï.
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(‹ß®ıÿÿÿÿ8†ù“‡ï.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(­°ÅŞúÿÿÿÿ8Âè‰³ï.
+C
+java:S1170"!Make this final field static too.(èëÁûÿÿÿÿ8åœ±Øï.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(êä´Çüÿÿÿÿ8Ó§‡ï.
+X	java:S125"<This block of commented-out lines of code should be removed.(ÌÛÛÄ8éµË²ï.
+x	java:S116"WRename this field "ORDER_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èëÁûÿÿÿÿ8åœ±Øï.
