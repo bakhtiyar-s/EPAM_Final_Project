@@ -1,15 +1,13 @@
 
-Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(æèÎ—úÿÿÿÿ8„¾Şèê.
-e
-java:S20955"HUse try-with-resources or close this "Connection" in a "finally" clause.(åÔÉÊ8Â²ã¢ñ.
-Z	java:S106<"9Replace this use of System.out or System.err by a logger.(µëôâşÿÿÿÿ8„¾Şèê.
-U	java:S106G"9Replace this use of System.out or System.err by a logger.(‚¦ÿÛ8„¾Şèê.
-c
-java:S2142D"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
-c
-java:S2142N"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
-h
-java:S2142Z"FEither re-interrupt this method or rethrow the "InterruptedException".(Öââşÿÿÿÿ8„¾Şèê.
-h
-java:S21428"FEither re-interrupt this method or rethrow the "InterruptedException".(Öââşÿÿÿÿ8«ÂÚ¢ñ.
-T	java:S106="9Replace this use of System.out or System.err by a logger.(¦‹‘18„¾Şèê.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚¦ÿÛ8„¾Şèê.
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
+f
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Öââşÿÿÿÿ8«ÂÚ¢ñ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(µëôâşÿÿÿÿ8„¾Şèê.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(æèÎ—úÿÿÿÿ8„¾Şèê.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¦‹‘18„¾Şèê.
+f
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Öââşÿÿÿÿ8„¾Şèê.
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¾Şèê.
