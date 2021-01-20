@@ -1,6 +1,8 @@
 -- -- DROP DATABASE FoodStore;
--- --
--- CREATE DATABASE FoodStore;
+
+CREATE DATABASE FoodStore
+    WITH OWNER "postgres"
+    ENCODING 'UTF8';
 
 CREATE SCHEMA IF NOT EXISTS FoodStore;
 

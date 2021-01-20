@@ -7,7 +7,6 @@ INSERT INTO FoodStore.MenuCategory (categoryName) VALUES ('Soup');
 INSERT INTO FoodStore.MenuCategory (categoryName) VALUES ('Dessert');
 INSERT INTO FoodStore.MenuCategory (categoryName) VALUES ('Drink');
 
-
 INSERT INTO Foodstore.Menuitem (itemname, price, categoryid, description, stoploss, imghref) VALUES (
    'САЛАТ "ОЛИВЬЕ"', 1200, 1, 'Картофель отварной, яйцо, зеленый горошек, свежий огурец, ветчина, майонез и зелень.', FALSE, '1.png');
 INSERT INTO Foodstore.Menuitem (itemname, price, categoryid, description, stoploss, imghref) VALUES (
@@ -99,5 +98,48 @@ INSERT INTO Foodstore.Menuitem (itemname, price, categoryid, description, stoplo
 INSERT INTO Foodstore.Menuitem (itemname, price, categoryid, description, stoploss, imghref) VALUES (
   'ФАНТА АПЕЛЬСИН 0,5 Л', 400, 5, 'Фанта апельсин', FALSE, '42.png');
 
-
+INSERT INTO foodstore.user (categoryid, firstname, lastname, phonenum, password, email) VALUES (2, 'Bakhtiyar', 'Suleimenov', '7471486450', MD5('123'), 'suleimenov.b@gmail.com');
 INSERT INTO FoodStore.User (categoryid, firstname, lastname, phonenum, password, email) values (1, 'admin', 'admin', '7473213232', MD5('admin'), 'admin@foodstore.com');
+
+INSERT INTO foodstore.address (id, addressline1, addressline2, comment, userid) VALUES (1, 'Satpayeva 3', 'apt 32', '8th floor', 1);
+INSERT INTO foodstore.address (id, addressline1, addressline2, comment, userid) VALUES (2, 'Zhenis 15', 'apt 89', '5th floor', 1);
+INSERT INTO foodstore.address (id, addressline1, addressline2, comment, userid) VALUES (8, 'ул Бейбарыс 13', 'кв 53', '', 1);
+INSERT INTO foodstore.address (id, addressline1, addressline2, comment, userid) VALUES (9, 'Kunayeva 11/A', 'apt 33', '', 1);
+
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (3, 1, 2, '2021-01-12 13:44:03.475725', '15:30:00', 'CASH', 'PENDING', 10400, 'comment3');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (5, 1, 2, '2021-01-12 14:25:05.721202', '18:00:00', 'CARD', 'PENDING', 1400, 'c');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (9, 1, 2, '2021-01-13 13:16:15.129149', '13:00:00', 'CARD', 'PENDING', 1400, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (11, 1, 2, '2021-01-13 14:30:25.793323', '15:00:00', 'CARD', 'CANCELLED', 4700, 'comment6');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (12, 1, 2, '2021-01-13 14:39:48.606874', '12:00:00', 'CASH', 'CANCELLED', 2800, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (13, 1, 1, '2021-01-18 12:58:58.527401', '14:40:00', 'CASH', 'CANCELLED', 3300, 'no comments');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (15, 1, 2, '2021-01-19 13:46:08.963682', '18:50:00', 'CARD', 'CANCELLED', 1900, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (14, 1, 2, '2021-01-19 13:34:15.319687', '15:40:00', 'CASH', 'CANCELLED', 1900, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (1, 1, 1, '2021-01-12 10:44:24.795851', '12:30:00', 'CARD', 'CANCELLED', 4200, 'comment1');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (16, 1, 8, '2021-01-20 15:40:30.442559', '19:00:00', 'CASH', 'CANCELLED', 1600, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (17, 1, 8, '2021-01-20 15:40:56.563144', '19:00:00', 'CARD', 'PENDING', 2200, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (2, 1, 2, '2021-01-12 11:10:43.622257', '12:30:00', 'CARD', 'COMPLETED', 3600, 'comment2');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (4, 1, 2, '2021-01-12 13:52:22.646034', '12:30:00', 'CASH', 'COMPLETED', 4200, 'comment4');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (10, 1, 2, '2021-01-13 14:27:02.823041', '12:30:00', 'CASH', 'COMPLETED', 1400, 'comment5');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (8, 1, 1, '2021-01-12 16:39:32.091192', '19:00:00', 'CARD', 'COMPLETED', 1900, '');
+INSERT INTO foodstore."order" (id, customerid, addressid, ordertime, deliverbytime, paymenttype, orderstatus, totalprice, comment) VALUES (18, 1, 9, '2021-01-20 16:20:12.724072', '19:30:00', 'CASH', 'PENDING', 1300, 'comment');
+
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (1, 1, 19, 2, 2800);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (2, 1, 4, 1, 1400);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (3, 2, 2, 2, 3600);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (4, 3, 11, 3, 6600);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (5, 3, 3, 2, 3800);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (6, 4, 8, 3, 3300);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (7, 4, 26, 1, 900);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (8, 5, 4, 1, 1400);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (11, 8, 6, 1, 1900);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (12, 9, 4, 1, 1400);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (13, 10, 4, 1, 1400);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (14, 11, 19, 2, 2800);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (15, 11, 3, 1, 1900);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (16, 12, 4, 2, 2800);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (17, 13, 8, 3, 3300);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (18, 14, 15, 1, 1900);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (19, 15, 6, 1, 1900);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (20, 16, 10, 2, 1600);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (21, 17, 17, 2, 2200);
+INSERT INTO foodstore.orderdetail (id, orderid, menuitemid, quantity, extendedprice) VALUES (22, 18, 21, 1, 1300);
